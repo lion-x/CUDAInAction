@@ -13,3 +13,6 @@ CUDA_ADD_EXECUTABLE(vectorAdd
 
 CUDA_ADD_EXECUTABLE(deviceQuery
         deviceQuery.cpp)
+
+CUDA_ADD_EXECUTABLE(matrixMul
+        matrixMul.cu)
