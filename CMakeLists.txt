@@ -10,3 +10,6 @@ INCLUDE_DIRECTORIES(inc)
 
 CUDA_ADD_EXECUTABLE(vectorAdd
         vectorAdd.cu)
+
+CUDA_ADD_EXECUTABLE(deviceQuery
+        deviceQuery.cpp)
