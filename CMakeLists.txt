@@ -16,3 +16,6 @@ CUDA_ADD_EXECUTABLE(deviceQuery
 
 CUDA_ADD_EXECUTABLE(matrixMul
         matrixMul.cu)
+
+CUDA_ADD_EXECUTABLE(testHello
+        test.cu)
